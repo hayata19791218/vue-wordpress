@@ -1,0 +1,62 @@
+
+//ハンバーガーメニュー
+.u-js-burger-wrap{
+    display: none;
+    @media screen and (max-width:767px){
+        display: block;
+        position:absolute;
+        top:-13px;
+        right:7px;
+        z-index:3;
+
+    }
+}
+.u-js-bar{
+    width: 40px;
+    height: 5px;
+    background-color:#000;
+    &__top{
+        transition-duration:.7s;
+    }
+    &__middle{
+        position:absolute;
+        top:10px;
+        transition-duration:.7s;
+    }
+    &__bottom{
+        position:absolute;
+        top:20px;
+        transition-duration:.7s;
+    }
+}
+.close1{
+    transform:rotate(45deg);
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    transition-duration:.7s;
+}
+.close2{
+    opacity:0;
+    transition-duration:.7s;
+    right:0;
+}
+.close3{
+    transform:rotate(-45deg);
+    top: 10px;
+    right: 0px;
+    transition-duration:.7s;
+}
+//ハンバーガーメニューここまで
+
+
+//途中から現れるトップに戻るボタン
+.u-js-topbtn{
+    opacity:0;
+}
+.u-js-btnactive{
+    opacity: 1;
+    visibility: visible;
+}
+//topに戻るボタンここまで
+

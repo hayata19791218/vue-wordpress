@@ -1,0 +1,108 @@
+.l-single-main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    @media screen and (max-width:767px){
+        justify-content:flex-start;
+        flex-direction:column;
+    }
+    &__wrap{
+        width: 54%;
+        @media screen and (max-width:1023px){
+            width: 60%;
+        }
+        @media screen and (max-width:767px){
+            width: 100%;
+        }
+    }
+    &__block{
+        border:1px solid #666;
+        margin-top: 20px;
+        padding: 20px;
+        h1{
+            color: #857e7e;
+            font-size: 30px;
+            line-height:1.5em;
+            @media screen and (max-width:1023px){
+                font-size: 25px;
+            }
+        }
+    }
+    &__eyecatch{
+        img{
+            width: 82%;
+            height:auto;
+            display: block;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top: 30px;
+        }
+    }
+    &__breadcrumb{
+        span{
+            font-size: 10px;
+            color:#000;
+        }
+    }
+    &__field{
+        margin-top: 30px;
+        p{
+            @media screen and (max-width:1023px){
+                font-size: 14px;
+            }
+            @media screen and (max-width:767px){
+                font-size: 13px;
+            }
+        }
+        p:nth-child(n+2){
+            margin-top: 20px;
+        }
+        a{
+            color:#79A5DC;
+            font-weight: bold;
+        }
+        h2{
+            padding: 0.5em;
+            color: #010101;
+            background: #eaf3ff;
+            border-bottom: solid 3px #516ab6;
+            line-height: 1.3em;
+            margin-top: 30px;
+            font-size: 25px;
+            @media screen and (max-width:1023px){
+                font-size: 20px;
+            }
+        }
+        h3{
+            background: linear-gradient(transparent 70%,#a7d6ff 70%);
+            line-height: 1.3em;
+            margin-top: 30px;
+            padding-top: 10px;
+            font-size: 18px;
+        }
+    }
+    .size-full{
+        width: 100%;
+        height:auto;
+        margin-top: 30px;
+    }
+    .size-large{
+        width: 80%;
+        display: block;
+        height:auto;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 30px;
+    }
+    .size-medium{
+        width: 36%;
+        display: block;
+        height:auto;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 30px;
+    }
+}

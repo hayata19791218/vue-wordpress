@@ -1,0 +1,74 @@
+.u-js-burger-wrap {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .u-js-burger-wrap {
+    display: block;
+    position: absolute;
+    top: -13px;
+    right: 7px;
+    z-index: 3;
+  }
+}
+
+.u-js-bar {
+  width: 40px;
+  height: 5px;
+  background-color: #000;
+}
+
+.u-js-bar__top {
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+}
+
+.u-js-bar__middle {
+  position: absolute;
+  top: 10px;
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+}
+
+.u-js-bar__bottom {
+  position: absolute;
+  top: 20px;
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+}
+
+.close1 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+}
+
+.close2 {
+  opacity: 0;
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+  right: 0;
+}
+
+.close3 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 10px;
+  right: 0px;
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+}
+
+.u-js-topbtn {
+  opacity: 0;
+}
+
+.u-js-btnactive {
+  opacity: 1;
+  visibility: visible;
+}
+/*# sourceMappingURL=u-js.css.map */

@@ -1,0 +1,150 @@
+.l-archive {
+  min-height: 100vh;
+  width: 50%;
+  margin: 70px auto 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-archive {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-archive {
+    width: 90%;
+    margin-top: 40px;
+  }
+}
+
+.l-archive__article-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.l-archive__content {
+  margin-top: 30px;
+}
+
+.l-archive__link {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  display: block;
+  color: #009999;
+}
+
+.l-archive__title {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.l-archive__title span {
+  font-weight: bold;
+}
+
+.l-archive__lists {
+  margin-top: 20px;
+}
+
+.l-archive__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+  margin-top: 50px;
+  color: #000;
+}
+
+@media screen and (max-width: 767px) {
+  .l-archive__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.l-archive__list img {
+  display: block;
+  width: 60%;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .l-archive__list img {
+    width: 100%;
+  }
+}
+
+.l-archive__list:hover {
+  -webkit-box-shadow: 2px 2px 15px #6e6c6b;
+          box-shadow: 2px 2px 15px #6e6c6b;
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+}
+
+.l-archive__list:last-child {
+  margin-bottom: 50px;
+}
+
+.l-archive__list:first-child {
+  margin-top: 0;
+}
+
+.l-archive__wrap {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.l-archive__list-title {
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-archive__list-title {
+    font-size: 16px;
+  }
+}
+
+.l-archive__excerpt {
+  margin-top: 10px;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-archive__excerpt {
+    font-size: 14px;
+  }
+}
+
+.l-archive__date {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-archive__date {
+    font-size: 14px;
+  }
+}
+
+.l-archive__breadcrumb a {
+  color: #000;
+  font-size: 13px;
+}
+
+.l-archive__breadcrumb span {
+  font-size: 13px;
+}
+
+.l-archive .search {
+  font-size: 13px;
+}
+/*# sourceMappingURL=l-archive.css.map */

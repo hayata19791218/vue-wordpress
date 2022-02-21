@@ -1,0 +1,20 @@
+.l-not-found {
+  margin-top: 200px;
+  text-align: center;
+  min-height: 70vh;
+}
+
+.l-not-found h2 {
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.l-not-found p {
+  line-height: 2em;
+}
+
+.l-not-found a {
+  color: #79A5DC;
+  font-weight: bold;
+}
+/*# sourceMappingURL=l-404.css.map */

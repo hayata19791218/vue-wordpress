@@ -1,0 +1,146 @@
+.l-single-main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 767px) {
+  .l-single-main {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.l-single-main__wrap {
+  width: 54%;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-single-main__wrap {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-single-main__wrap {
+    width: 100%;
+  }
+}
+
+.l-single-main__block {
+  border: 1px solid #666;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.l-single-main__block h1 {
+  color: #857e7e;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-single-main__block h1 {
+    font-size: 25px;
+  }
+}
+
+.l-single-main__eyecatch img {
+  width: 82%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.l-single-main__breadcrumb span {
+  font-size: 10px;
+  color: #000;
+}
+
+.l-single-main__field {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-single-main__field p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-single-main__field p {
+    font-size: 13px;
+  }
+}
+
+.l-single-main__field p:nth-child(n+2) {
+  margin-top: 20px;
+}
+
+.l-single-main__field a {
+  color: #79A5DC;
+  font-weight: bold;
+}
+
+.l-single-main__field h2 {
+  padding: 0.5em;
+  color: #010101;
+  background: #eaf3ff;
+  border-bottom: solid 3px #516ab6;
+  line-height: 1.3em;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-single-main__field h2 {
+    font-size: 20px;
+  }
+}
+
+.l-single-main__field h3 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #a7d6ff));
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+  line-height: 1.3em;
+  margin-top: 30px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.l-single-main .size-full {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.l-single-main .size-large {
+  width: 80%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.l-single-main .size-medium {
+  width: 36%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=l-single.css.map */
